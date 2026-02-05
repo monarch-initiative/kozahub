@@ -1,0 +1,76 @@
+{
+  "last_updated": "2026-02-05T20:00:00+00:00",
+  "ingests": [
+    {
+      "name": "alliance-ingest",
+      "repo_url": "https://github.com/monarch-initiative/alliance-ingest",
+      "status": "healthy",
+      "last_release": {
+        "tag": "v2024-02-01",
+        "date": "2024-02-01T00:00:00+00:00",
+        "url": "https://github.com/monarch-initiative/alliance-ingest/releases/tag/v2024-02-01"
+      },
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "date": "2024-02-01T00:15:00+00:00",
+        "url": "https://github.com/monarch-initiative/alliance-ingest/actions/runs/123456"
+      }
+    },
+    {
+      "name": "bgee-ingest",
+      "repo_url": "https://github.com/monarch-initiative/bgee-ingest",
+      "status": "healthy",
+      "last_release": {
+        "tag": "v2024-01-15",
+        "date": "2024-01-15T00:00:00+00:00",
+        "url": "https://github.com/monarch-initiative/bgee-ingest/releases/tag/v2024-01-15"
+      },
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "date": "2024-01-15T00:15:00+00:00",
+        "url": "https://github.com/monarch-initiative/bgee-ingest/actions/runs/123457"
+      }
+    },
+    {
+      "name": "clinvar-ingest",
+      "repo_url": "https://github.com/monarch-initiative/clinvar-ingest",
+      "status": "stale",
+      "last_release": {
+        "tag": "v2023-10-01",
+        "date": "2023-10-01T00:00:00+00:00",
+        "url": "https://github.com/monarch-initiative/clinvar-ingest/releases/tag/v2023-10-01"
+      },
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "date": "2023-10-01T00:15:00+00:00",
+        "url": "https://github.com/monarch-initiative/clinvar-ingest/actions/runs/789012"
+      }
+    },
+    {
+      "name": "hgnc-ingest",
+      "repo_url": "https://github.com/monarch-initiative/hgnc-ingest",
+      "status": "failed",
+      "last_release": {
+        "tag": "v2024-01-15",
+        "date": "2024-01-15T00:00:00+00:00",
+        "url": "https://github.com/monarch-initiative/hgnc-ingest/releases/tag/v2024-01-15"
+      },
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "failure",
+        "date": "2024-02-01T00:15:00+00:00",
+        "url": "https://github.com/monarch-initiative/hgnc-ingest/actions/runs/345678"
+      }
+    },
+    {
+      "name": "new-ingest",
+      "repo_url": "https://github.com/monarch-initiative/new-ingest",
+      "status": "failed",
+      "last_release": null,
+      "last_workflow_run": null
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[project]
+name = "kozahub-dashboard"
+version = "0.1.0"
+description = "Dashboard monitoring KozaHub ingest repository health"
+requires-python = ">=3.11"
+dependencies = [
+    "pygithub>=2.8.1",
+]

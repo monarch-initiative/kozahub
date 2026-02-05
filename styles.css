@@ -1,0 +1,240 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Color palette from design spec */
+    --bg-primary: #0a0e27;
+    --bg-card: #1a1f3a;
+    --text-primary: #e8eaed;
+    --text-secondary: #8e92a0;
+    --status-healthy: #00d9a3;
+    --status-stale: #ffc107;
+    --status-failed: #ff4757;
+    --glow-opacity: 0.15;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 
+                 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Header */
+header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.last-updated {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.summary {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.summary span {
+    margin: 0 1rem;
+    font-weight: 500;
+}
+
+.summary .healthy { color: var(--status-healthy); }
+.summary .stale { color: var(--status-stale); }
+.summary .failed { color: var(--status-failed); }
+
+/* Dashboard grid */
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+/* Ingest cards */
+.ingest-card {
+    background-color: var(--bg-card);
+    border-radius: 12px;
+    padding: 1.5rem;
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ingest-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Status badge in top right corner */
+.status-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    box-shadow: 0 0 16px currentColor;
+}
+
+.status-badge.healthy {
+    background-color: var(--status-healthy);
+    color: var(--status-healthy);
+}
+
+.status-badge.stale {
+    background-color: var(--status-stale);
+    color: var(--status-stale);
+}
+
+.status-badge.failed {
+    background-color: var(--status-failed);
+    color: var(--status-failed);
+}
+
+/* Card glow effect on hover */
+.ingest-card.healthy:hover {
+    box-shadow: 0 8px 32px rgba(0, 217, 163, var(--glow-opacity));
+}
+
+.ingest-card.stale:hover {
+    box-shadow: 0 8px 32px rgba(255, 193, 7, var(--glow-opacity));
+}
+
+.ingest-card.failed:hover {
+    box-shadow: 0 8px 32px rgba(255, 71, 87, var(--glow-opacity));
+}
+
+/* Card content */
+.ingest-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-right: 2rem; /* Space for status badge */
+}
+
+.ingest-name a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.ingest-name a:hover {
+    color: var(--status-healthy);
+}
+
+.ingest-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.detail-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.detail-label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.detail-value {
+    font-size: 1rem;
+    color: var(--text-primary);
+}
+
+.detail-value a {
+    color: var(--text-primary);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: border-color 0.2s;
+}
+
+.detail-value a:hover {
+    border-color: var(--status-healthy);
+}
+
+.time-ago {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-left: 0.5rem;
+}
+
+/* Workflow conclusion badges */
+.conclusion-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+.conclusion-badge.success {
+    background-color: rgba(0, 217, 163, 0.2);
+    color: var(--status-healthy);
+}
+
+.conclusion-badge.failure {
+    background-color: rgba(255, 71, 87, 0.2);
+    color: var(--status-failed);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Loading state */
+.loading {
+    text-align: center;
+    padding: 4rem;
+    color: var(--text-secondary);
+    font-size: 1.2rem;
+}

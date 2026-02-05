@@ -1,0 +1,11 @@
+# Python
+.venv/
+.python-version
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
+
+# Environment
+.env
