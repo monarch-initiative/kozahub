@@ -54,7 +54,15 @@ function createIngestCard(ingest) {
     nameLink.target = '_blank';
     nameLink.textContent = ingest.name;
     name.appendChild(nameLink);
-    
+
+    // Add Koza 2 badge if applicable
+    if (ingest.koza_version === '2') {
+        const versionBadge = document.createElement('span');
+        versionBadge.className = 'version-badge';
+        versionBadge.textContent = 'koza 2';
+        name.appendChild(versionBadge);
+    }
+
     // Details container
     const details = document.createElement('div');
     details.className = 'ingest-details';

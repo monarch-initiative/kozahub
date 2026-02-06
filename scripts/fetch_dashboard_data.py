@@ -5,8 +5,11 @@ Fetch dashboard data for KozaHub ingests.
 Queries GitHub API to discover all repos with 'kozahub-ingest' topic
 in monarch-initiative org, then fetches release and workflow data.
 """
+import base64
 import json
 import os
+import re
+import tomllib
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
@@ -14,6 +17,7 @@ from typing import Optional
 from github import Github, Auth
 from github.Repository import Repository
 from github.GithubException import GithubException
+from packaging import version as pkg_version
 
 # Configuration
 ORG_NAME = "monarch-initiative"
@@ -125,32 +129,97 @@ def fetch_latest_workflow_run(repo: Repository) -> Optional[dict]:
         return None
 
 
+def fetch_koza_version(repo: Repository) -> Optional[str]:
+    """
+    Detect Koza version from repo's pyproject.toml.
+
+    Returns "2" if Koza >= 2.0.0, None otherwise.
+    """
+    try:
+        # Fetch pyproject.toml from repo
+        content = repo.get_contents("pyproject.toml")
+
+        # Decode base64 content
+        toml_content = base64.b64decode(content.content).decode('utf-8')
+
+        # Parse TOML
+        data = tomllib.loads(toml_content)
+
+        # Get dependencies from [project] section
+        dependencies = data.get('project', {}).get('dependencies', [])
+
+        # Find koza dependency
+        koza_dep = None
+        for dep in dependencies:
+            if isinstance(dep, str) and dep.strip().startswith('koza'):
+                koza_dep = dep
+                break
+
+        if not koza_dep:
+            return None
+
+        # Extract version using regex
+        # Matches: koza>=2.0.0, koza==2.1.0, koza~=2.0, etc.
+        match = re.search(r'koza\s*([><=!~]+)\s*([0-9.]+)', koza_dep)
+        if not match:
+            return None
+
+        operator, version_str = match.groups()
+
+        # Parse version
+        try:
+            dep_version = pkg_version.parse(version_str)
+            koza_v2 = pkg_version.parse("2.0.0")
+
+            # Check if version constraint allows >= 2.0.0
+            # For simplicity: if the specified version is >= 2.0.0, consider it Koza 2
+            if dep_version >= koza_v2:
+                return "2"
+            else:
+                return None
+        except Exception as e:
+            print(f"  Warning: Could not parse version '{version_str}' for {repo.name}: {e}")
+            return None
+
+    except GithubException as e:
+        if e.status == 404:
+            # File not found
+            return None
+        print(f"  Warning: Error fetching pyproject.toml for {repo.name}: {e}")
+        return None
+    except Exception as e:
+        print(f"  Warning: Error parsing Koza version for {repo.name}: {e}")
+        return None
+
+
 def fetch_ingest_data(repo: Repository) -> dict:
     """
     Fetch complete data for a single ingest repository.
     """
     print(f"Fetching data for {repo.name}...")
-    
+
     release_data = fetch_latest_release(repo)
     workflow_data = fetch_latest_workflow_run(repo)
-    
+    koza_version = fetch_koza_version(repo)
+
     # Parse release date for status calculation
     release_date = None
     if release_data:
         release_date = datetime.fromisoformat(release_data["date"].replace('Z', '+00:00'))
-    
+
     # Get workflow conclusion
     workflow_conclusion = workflow_data.get("conclusion") if workflow_data else None
-    
+
     # Calculate health status
     status = calculate_status(release_date, workflow_conclusion)
-    
+
     return {
         "name": repo.name,
         "repo_url": repo.html_url,
         "status": status,
         "last_release": release_data,
-        "last_workflow_run": workflow_data
+        "last_workflow_run": workflow_data,
+        "koza_version": koza_version
     }
 
 
