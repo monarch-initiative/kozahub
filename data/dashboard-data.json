@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-05T23:27:19.163475+00:00",
+  "last_updated": "2026-02-06T18:36:52.941648+00:00",
   "ingests": [
     {
       "name": "biogrid-ingest",
@@ -55,17 +55,17 @@
     {
       "name": "dictybase-ingest",
       "repo_url": "https://github.com/monarch-initiative/dictybase-ingest",
-      "status": "failed",
+      "status": "healthy",
       "last_release": {
-        "tag": "2026-01-27",
-        "date": "2026-01-28T02:19:11+00:00",
-        "url": "https://github.com/monarch-initiative/dictybase-ingest/releases/tag/2026-01-27"
+        "tag": "2026-02-06",
+        "date": "2026-02-06T00:23:10+00:00",
+        "url": "https://github.com/monarch-initiative/dictybase-ingest/releases/tag/2026-02-06"
       },
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "failure",
-        "date": "2026-02-01T02:09:39+00:00",
-        "url": "https://github.com/monarch-initiative/dictybase-ingest/actions/runs/21554769909"
+        "conclusion": "success",
+        "date": "2026-02-06T00:24:08+00:00",
+        "url": "https://github.com/monarch-initiative/dictybase-ingest/actions/runs/21733834820"
       },
       "koza_version": "2"
     },
