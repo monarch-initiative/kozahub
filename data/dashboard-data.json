@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-07T01:12:48.312987+00:00",
+  "last_updated": "2026-02-07T06:32:11.782016+00:00",
   "ingests": [
     {
       "name": "alliance-ingest",
@@ -157,13 +157,17 @@
     {
       "name": "mmrrc-ingest",
       "repo_url": "https://github.com/monarch-initiative/mmrrc-ingest",
-      "status": "failed",
-      "last_release": null,
+      "status": "healthy",
+      "last_release": {
+        "tag": "2026-02-07",
+        "date": "2026-02-07T01:31:41+00:00",
+        "url": "https://github.com/monarch-initiative/mmrrc-ingest/releases/tag/2026-02-07"
+      },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-02-02T04:41:11+00:00",
-        "url": "https://github.com/monarch-initiative/mmrrc-ingest/actions/runs/21577623540"
+        "date": "2026-02-07T01:36:19+00:00",
+        "url": "https://github.com/monarch-initiative/mmrrc-ingest/actions/runs/21771850856"
       },
       "koza_version": "2"
     },
