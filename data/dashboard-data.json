@@ -1,6 +1,40 @@
 {
-  "last_updated": "2026-02-06T22:49:54.722735+00:00",
+  "last_updated": "2026-02-07T00:07:32.339783+00:00",
   "ingests": [
+    {
+      "name": "alliance-ingest",
+      "repo_url": "https://github.com/monarch-initiative/alliance-ingest",
+      "status": "stale",
+      "last_release": {
+        "tag": "2026-02-03",
+        "date": "2025-10-24T21:39:40+00:00",
+        "url": "https://github.com/monarch-initiative/alliance-ingest/releases/tag/2026-02-03"
+      },
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "date": "2026-02-03T01:26:11+00:00",
+        "url": "https://github.com/monarch-initiative/alliance-ingest/actions/runs/21613038415"
+      },
+      "koza_version": "2"
+    },
+    {
+      "name": "bgee-ingest",
+      "repo_url": "https://github.com/monarch-initiative/bgee-ingest",
+      "status": "healthy",
+      "last_release": {
+        "tag": "2026-02-05",
+        "date": "2026-02-05T19:59:59+00:00",
+        "url": "https://github.com/monarch-initiative/bgee-ingest/releases/tag/2026-02-05"
+      },
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "date": "2026-02-05T20:00:22+00:00",
+        "url": "https://github.com/monarch-initiative/bgee-ingest/actions/runs/21726452289"
+      },
+      "koza_version": "2"
+    },
     {
       "name": "biogrid-ingest",
       "repo_url": "https://github.com/monarch-initiative/biogrid-ingest",
@@ -32,6 +66,23 @@
         "conclusion": "success",
         "date": "2026-02-06T22:31:37+00:00",
         "url": "https://github.com/monarch-initiative/clingen-ingest/actions/runs/21768249162"
+      },
+      "koza_version": "2"
+    },
+    {
+      "name": "clinvar-ingest",
+      "repo_url": "https://github.com/monarch-initiative/clinvar-ingest",
+      "status": "failed",
+      "last_release": {
+        "tag": "2026-01-03",
+        "date": "2025-04-19T01:23:08+00:00",
+        "url": "https://github.com/monarch-initiative/clinvar-ingest/releases/tag/2026-01-03"
+      },
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "failure",
+        "date": "2026-02-06T23:58:37+00:00",
+        "url": "https://github.com/monarch-initiative/clinvar-ingest/actions/runs/21770154804"
       },
       "koza_version": "2"
     },
@@ -100,6 +151,19 @@
         "conclusion": "success",
         "date": "2026-02-05T21:16:15+00:00",
         "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/actions/runs/21728786633"
+      },
+      "koza_version": "2"
+    },
+    {
+      "name": "mmrrc-ingest",
+      "repo_url": "https://github.com/monarch-initiative/mmrrc-ingest",
+      "status": "failed",
+      "last_release": null,
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "date": "2026-02-02T04:41:11+00:00",
+        "url": "https://github.com/monarch-initiative/mmrrc-ingest/actions/runs/21577623540"
       },
       "koza_version": "2"
     },
