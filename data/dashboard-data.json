@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-08T01:49:09.696173+00:00",
+  "last_updated": "2026-02-08T06:39:52.309506+00:00",
   "ingests": [
     {
       "name": "alliance-ingest",
@@ -302,8 +302,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "failure",
-        "date": "2026-02-01T02:27:19+00:00",
-        "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/actions/runs/21555010642"
+        "date": "2026-02-08T02:34:27+00:00",
+        "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/actions/runs/21790914705"
       },
       "koza_version": null
     },
