@@ -14,6 +14,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
+import yaml
+
 from github import Github, Auth
 from github.Repository import Repository
 from github.GithubException import GithubException
@@ -22,6 +24,7 @@ from packaging import version as pkg_version
 # Configuration
 ORG_NAME = "monarch-initiative"
 TOPIC = "kozahub-ingest"
+TEMPLATE_REPO = "monarch-initiative/koza-ingest-template"
 STALENESS_THRESHOLD_DAYS = 45
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "dashboard-data.json"
 
@@ -75,7 +78,7 @@ def fetch_latest_release(repo: Repository) -> Optional[dict]:
         release = repo.get_latest_release()
         return {
             "tag": release.tag_name,
-            "date": release.created_at.isoformat(),
+            "date": release.published_at.isoformat(),
             "url": release.html_url
         }
     except GithubException:
@@ -192,7 +195,60 @@ def fetch_koza_version(repo: Repository) -> Optional[str]:
         return None
 
 
-def fetch_ingest_data(repo: Repository) -> dict:
+def fetch_template_commits(github: Github) -> list[str]:
+    """
+    Fetch the commit history of the copier template repo.
+
+    Returns a list of commit SHAs ordered newest-first.
+    """
+    try:
+        repo = github.get_repo(TEMPLATE_REPO)
+        commits = repo.get_commits()
+        return [c.sha for c in commits]
+    except GithubException as e:
+        print(f"Error fetching template commits: {e}")
+        return []
+
+
+def fetch_copier_info(repo: Repository) -> Optional[dict]:
+    """
+    Fetch .copier-answers.yml from a repo to get template commit info.
+
+    Returns dict with '_commit' and '_src_path', or None if not found.
+    """
+    try:
+        content = repo.get_contents(".copier-answers.yml")
+        yaml_content = base64.b64decode(content.content).decode('utf-8')
+        answers = yaml.safe_load(yaml_content)
+        commit = answers.get("_commit")
+        src_path = answers.get("_src_path")
+        if commit:
+            return {"commit": commit, "src_path": src_path}
+        return None
+    except GithubException:
+        return None
+    except Exception as e:
+        print(f"  Warning: Error parsing copier answers for {repo.name}: {e}")
+        return None
+
+
+def calculate_commits_behind(
+    copier_commit: str,
+    template_commits: list[str],
+) -> Optional[int]:
+    """
+    Calculate how many commits behind an ingest is from the template HEAD.
+
+    Matches the copier commit (which may be a short hash) against the
+    full commit SHAs in the template history.
+    """
+    for i, sha in enumerate(template_commits):
+        if sha.startswith(copier_commit):
+            return i
+    return None  # Commit not found in history
+
+
+def fetch_ingest_data(repo: Repository, template_commits: list[str]) -> dict:
     """
     Fetch complete data for a single ingest repository.
     """
@@ -201,6 +257,7 @@ def fetch_ingest_data(repo: Repository) -> dict:
     release_data = fetch_latest_release(repo)
     workflow_data = fetch_latest_workflow_run(repo)
     koza_version = fetch_koza_version(repo)
+    copier_info = fetch_copier_info(repo)
 
     # Parse release date for status calculation
     release_date = None
@@ -213,13 +270,29 @@ def fetch_ingest_data(repo: Repository) -> dict:
     # Calculate health status
     status = calculate_status(release_date, workflow_conclusion)
 
+    # Calculate template status
+    template_status = None
+    if copier_info and template_commits:
+        commits_behind = calculate_commits_behind(
+            copier_info["commit"], template_commits
+        )
+        template_status = {
+            "commit": copier_info["commit"],
+            "commits_behind": commits_behind,
+        }
+        if commits_behind is not None:
+            print(f"  Template: {commits_behind} commits behind")
+        else:
+            print(f"  Template: commit {copier_info['commit']} not found in history")
+
     return {
         "name": repo.name,
         "repo_url": repo.html_url,
         "status": status,
         "last_release": release_data,
         "last_workflow_run": workflow_data,
-        "koza_version": koza_version
+        "koza_version": koza_version,
+        "template_status": template_status,
     }
 
 
@@ -241,24 +314,38 @@ def main():
     print(f"Searching for repos with topic '{TOPIC}' in org '{ORG_NAME}'...")
     repos = discover_ingests(github)
     print(f"Found {len(repos)} repositories")
-    
+
+    # Fetch template commit history
+    print(f"\nFetching template commit history from {TEMPLATE_REPO}...")
+    template_commits = fetch_template_commits(github)
+    print(f"Found {len(template_commits)} template commits")
+
     # Fetch data for each ingest
     ingests_data = []
     for repo in repos:
         try:
-            data = fetch_ingest_data(repo)
+            data = fetch_ingest_data(repo, template_commits)
             ingests_data.append(data)
         except Exception as e:
             print(f"Error processing {repo.name}: {e}")
             continue
-    
+
     # Sort by name for consistent output
     ingests_data.sort(key=lambda x: x["name"])
-    
+
     # Create output structure
+    template_info = None
+    if template_commits:
+        template_repo = github.get_repo(TEMPLATE_REPO)
+        template_info = {
+            "repo_url": template_repo.html_url,
+            "latest_commit": template_commits[0][:7],
+            "total_commits": len(template_commits),
+        }
     output = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
-        "ingests": ingests_data
+        "template": template_info,
+        "ingests": ingests_data,
     }
     
     # Ensure output directory exists

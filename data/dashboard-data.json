@@ -1,13 +1,18 @@
 {
-  "last_updated": "2026-02-09T18:46:06.855330+00:00",
+  "last_updated": "2026-02-09T18:56:55.731779+00:00",
+  "template": {
+    "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
+    "latest_commit": "1230134",
+    "total_commits": 84
+  },
   "ingests": [
     {
       "name": "alliance-ingest",
       "repo_url": "https://github.com/monarch-initiative/alliance-ingest",
-      "status": "stale",
+      "status": "healthy",
       "last_release": {
         "tag": "2026-02-03",
-        "date": "2025-10-24T21:39:40+00:00",
+        "date": "2026-02-03T01:33:24+00:00",
         "url": "https://github.com/monarch-initiative/alliance-ingest/releases/tag/2026-02-03"
       },
       "last_workflow_run": {
@@ -16,7 +21,11 @@
         "date": "2026-02-03T01:26:11+00:00",
         "url": "https://github.com/monarch-initiative/alliance-ingest/actions/runs/21613038415"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "815e115b7bb3bd03627dee276440ee9b4df6f2e5",
+        "commits_behind": null
+      }
     },
     {
       "name": "bgee-ingest",
@@ -24,7 +33,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-05",
-        "date": "2026-02-05T19:59:59+00:00",
+        "date": "2026-02-05T20:06:49+00:00",
         "url": "https://github.com/monarch-initiative/bgee-ingest/releases/tag/2026-02-05"
       },
       "last_workflow_run": {
@@ -33,7 +42,11 @@
         "date": "2026-02-05T20:00:22+00:00",
         "url": "https://github.com/monarch-initiative/bgee-ingest/actions/runs/21726452289"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "biogrid-ingest",
@@ -41,7 +54,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "v2026-02-05",
-        "date": "2026-02-05T20:37:06+00:00",
+        "date": "2026-02-05T20:40:38+00:00",
         "url": "https://github.com/monarch-initiative/biogrid-ingest/releases/tag/v2026-02-05"
       },
       "last_workflow_run": {
@@ -50,7 +63,11 @@
         "date": "2026-02-05T20:37:29+00:00",
         "url": "https://github.com/monarch-initiative/biogrid-ingest/actions/runs/21727604616"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "clingen-ingest",
@@ -58,7 +75,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "v2026-02-06",
-        "date": "2026-02-06T22:24:43+00:00",
+        "date": "2026-02-06T22:35:13+00:00",
         "url": "https://github.com/monarch-initiative/clingen-ingest/releases/tag/v2026-02-06"
       },
       "last_workflow_run": {
@@ -67,7 +84,11 @@
         "date": "2026-02-06T22:31:37+00:00",
         "url": "https://github.com/monarch-initiative/clingen-ingest/actions/runs/21768249162"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "clinvar-ingest",
@@ -75,7 +96,7 @@
       "status": "failed",
       "last_release": {
         "tag": "2026-01-03",
-        "date": "2025-04-19T01:23:08+00:00",
+        "date": "2026-01-03T02:01:13+00:00",
         "url": "https://github.com/monarch-initiative/clinvar-ingest/releases/tag/2026-01-03"
       },
       "last_workflow_run": {
@@ -84,7 +105,11 @@
         "date": "2026-02-06T23:58:37+00:00",
         "url": "https://github.com/monarch-initiative/clinvar-ingest/actions/runs/21770154804"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "ctd-ingest",
@@ -92,7 +117,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-01",
-        "date": "2026-01-29T18:48:14+00:00",
+        "date": "2026-02-01T01:13:04+00:00",
         "url": "https://github.com/monarch-initiative/ctd-ingest/releases/tag/2026-02-01"
       },
       "last_workflow_run": {
@@ -101,7 +126,11 @@
         "date": "2026-02-01T01:11:50+00:00",
         "url": "https://github.com/monarch-initiative/ctd-ingest/actions/runs/21554020476"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "dictybase-ingest",
@@ -109,7 +138,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-06",
-        "date": "2026-02-06T00:23:10+00:00",
+        "date": "2026-02-06T00:24:39+00:00",
         "url": "https://github.com/monarch-initiative/dictybase-ingest/releases/tag/2026-02-06"
       },
       "last_workflow_run": {
@@ -118,7 +147,11 @@
         "date": "2026-02-06T00:24:08+00:00",
         "url": "https://github.com/monarch-initiative/dictybase-ingest/actions/runs/21733834820"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "d6f5ff0",
+        "commits_behind": 2
+      }
     },
     {
       "name": "go-ingest",
@@ -126,7 +159,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-05",
-        "date": "2026-02-05T21:14:33+00:00",
+        "date": "2026-02-05T21:20:05+00:00",
         "url": "https://github.com/monarch-initiative/go-ingest/releases/tag/2026-02-05"
       },
       "last_workflow_run": {
@@ -135,7 +168,11 @@
         "date": "2026-02-05T21:14:44+00:00",
         "url": "https://github.com/monarch-initiative/go-ingest/actions/runs/21728738922"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "maxo-annotation-ingest",
@@ -143,7 +180,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-05",
-        "date": "2026-02-05T21:15:58+00:00",
+        "date": "2026-02-05T21:16:39+00:00",
         "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/releases/tag/2026-02-05"
       },
       "last_workflow_run": {
@@ -152,7 +189,11 @@
         "date": "2026-02-05T21:16:15+00:00",
         "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/actions/runs/21728786633"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "mmrrc-ingest",
@@ -160,7 +201,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-07",
-        "date": "2026-02-07T01:31:41+00:00",
+        "date": "2026-02-07T01:37:05+00:00",
         "url": "https://github.com/monarch-initiative/mmrrc-ingest/releases/tag/2026-02-07"
       },
       "last_workflow_run": {
@@ -169,7 +210,11 @@
         "date": "2026-02-07T01:36:19+00:00",
         "url": "https://github.com/monarch-initiative/mmrrc-ingest/actions/runs/21771850856"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "80f5f67",
+        "commits_behind": null
+      }
     },
     {
       "name": "monarch-phenotype-profile-ingest",
@@ -177,7 +222,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-06",
-        "date": "2026-02-06T20:50:54+00:00",
+        "date": "2026-02-06T20:52:42+00:00",
         "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/releases/tag/2026-02-06"
       },
       "last_workflow_run": {
@@ -186,7 +231,11 @@
         "date": "2026-02-06T20:51:18+00:00",
         "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/actions/runs/21765489169"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "d6f5ff0",
+        "commits_behind": 2
+      }
     },
     {
       "name": "omim-ingest",
@@ -194,7 +243,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-06",
-        "date": "2026-02-06T22:17:36+00:00",
+        "date": "2026-02-06T22:18:21+00:00",
         "url": "https://github.com/monarch-initiative/omim-ingest/releases/tag/2026-02-06"
       },
       "last_workflow_run": {
@@ -203,7 +252,11 @@
         "date": "2026-02-06T22:17:54+00:00",
         "url": "https://github.com/monarch-initiative/omim-ingest/actions/runs/21767905409"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "pantherdb-orthologs-ingest",
@@ -211,7 +264,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-06",
-        "date": "2026-02-06T21:33:48+00:00",
+        "date": "2026-02-06T21:48:36+00:00",
         "url": "https://github.com/monarch-initiative/pantherdb-orthologs-ingest/releases/tag/2026-02-06"
       },
       "last_workflow_run": {
@@ -220,7 +273,11 @@
         "date": "2026-02-06T21:34:50+00:00",
         "url": "https://github.com/monarch-initiative/pantherdb-orthologs-ingest/actions/runs/21766706802"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "1230134",
+        "commits_behind": 0
+      }
     },
     {
       "name": "phenopacket-ingest",
@@ -228,7 +285,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-01-10",
-        "date": "2026-01-09T23:07:32+00:00",
+        "date": "2026-01-10T00:28:25+00:00",
         "url": "https://github.com/monarch-initiative/phenopacket-ingest/releases/tag/2026-01-10"
       },
       "last_workflow_run": {
@@ -237,7 +294,11 @@
         "date": "2026-01-10T00:25:47+00:00",
         "url": "https://github.com/monarch-initiative/phenopacket-ingest/actions/runs/20869562428"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "fe21eee73f47a659640e02590a3d72ca82f2ca35",
+        "commits_behind": 7
+      }
     },
     {
       "name": "pombase-ingest",
@@ -245,7 +306,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-01",
-        "date": "2026-01-29T18:48:14+00:00",
+        "date": "2026-02-01T01:26:24+00:00",
         "url": "https://github.com/monarch-initiative/pombase-ingest/releases/tag/2026-02-01"
       },
       "last_workflow_run": {
@@ -254,7 +315,11 @@
         "date": "2026-02-01T01:25:42+00:00",
         "url": "https://github.com/monarch-initiative/pombase-ingest/actions/runs/21554201476"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "reactome-ingest",
@@ -262,7 +327,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "v0.1.0",
-        "date": "2026-01-28T02:35:44+00:00",
+        "date": "2026-01-28T02:37:30+00:00",
         "url": "https://github.com/monarch-initiative/reactome-ingest/releases/tag/v0.1.0"
       },
       "last_workflow_run": {
@@ -271,7 +336,11 @@
         "date": "2026-01-28T02:37:32+00:00",
         "url": "https://github.com/monarch-initiative/reactome-ingest/actions/runs/21422701179"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "string-ingest",
@@ -279,7 +348,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-02-01",
-        "date": "2026-01-28T04:38:39+00:00",
+        "date": "2026-02-01T01:24:04+00:00",
         "url": "https://github.com/monarch-initiative/string-ingest/releases/tag/2026-02-01"
       },
       "last_workflow_run": {
@@ -288,7 +357,8 @@
         "date": "2026-02-01T01:10:46+00:00",
         "url": "https://github.com/monarch-initiative/string-ingest/actions/runs/21554006037"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": null
     },
     {
       "name": "upheno-cross-species-ingest",
@@ -296,7 +366,7 @@
       "status": "failed",
       "last_release": {
         "tag": "2025-12-07",
-        "date": "2025-12-04T19:33:30+00:00",
+        "date": "2025-12-07T01:48:43+00:00",
         "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/releases/tag/2025-12-07"
       },
       "last_workflow_run": {
@@ -305,7 +375,8 @@
         "date": "2026-02-08T02:34:27+00:00",
         "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/actions/runs/21790914705"
       },
-      "koza_version": null
+      "koza_version": null,
+      "template_status": null
     },
     {
       "name": "xenbase-ingest",
@@ -313,7 +384,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "v2026-02-01",
-        "date": "2026-01-27T20:59:48+00:00",
+        "date": "2026-02-01T01:49:08+00:00",
         "url": "https://github.com/monarch-initiative/xenbase-ingest/releases/tag/v2026-02-01"
       },
       "last_workflow_run": {
@@ -322,7 +393,11 @@
         "date": "2026-02-01T01:48:23+00:00",
         "url": "https://github.com/monarch-initiative/xenbase-ingest/actions/runs/21554496587"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "adada77",
+        "commits_behind": 4
+      }
     },
     {
       "name": "zfin-ingest",
@@ -330,7 +405,7 @@
       "status": "healthy",
       "last_release": {
         "tag": "v2026-02-01",
-        "date": "2026-01-27T21:00:25+00:00",
+        "date": "2026-02-01T03:16:17+00:00",
         "url": "https://github.com/monarch-initiative/zfin-ingest/releases/tag/v2026-02-01"
       },
       "last_workflow_run": {
@@ -339,7 +414,11 @@
         "date": "2026-02-01T03:15:20+00:00",
         "url": "https://github.com/monarch-initiative/zfin-ingest/actions/runs/21555676130"
       },
-      "koza_version": "2"
+      "koza_version": "2",
+      "template_status": {
+        "commit": "8ecad33",
+        "commits_behind": 9
+      }
     }
   ]
 }
