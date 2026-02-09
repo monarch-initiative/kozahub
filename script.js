@@ -137,14 +137,55 @@ function createIngestCard(ingest) {
     workflowRow.appendChild(workflowLabel);
     workflowRow.appendChild(workflowValue);
     
+    // Template status row
+    var templateRow = null;
+    if (ingest.template_status) {
+        templateRow = document.createElement('div');
+        templateRow.className = 'detail-row';
+
+        var templateLabel = document.createElement('div');
+        templateLabel.className = 'detail-label';
+        templateLabel.textContent = 'Template';
+
+        var templateValue = document.createElement('div');
+        templateValue.className = 'detail-value';
+
+        var behind = ingest.template_status.commits_behind;
+        if (behind === null || behind === undefined) {
+            var unknownSpan = document.createElement('span');
+            unknownSpan.style.color = 'var(--text-secondary)';
+            unknownSpan.textContent = 'Unknown';
+            templateValue.appendChild(unknownSpan);
+        } else if (behind === 0) {
+            var upToDate = document.createElement('span');
+            upToDate.className = 'template-badge up-to-date';
+            upToDate.textContent = 'up to date';
+            templateValue.appendChild(upToDate);
+        } else {
+            var behindBadge = document.createElement('span');
+            behindBadge.className = 'template-badge behind';
+            if (behind >= 4) {
+                behindBadge.classList.add('behind-far');
+            }
+            behindBadge.textContent = behind + ' commit' + (behind === 1 ? '' : 's') + ' behind';
+            templateValue.appendChild(behindBadge);
+        }
+
+        templateRow.appendChild(templateLabel);
+        templateRow.appendChild(templateValue);
+    }
+
     // Assemble card
     details.appendChild(releaseRow);
     details.appendChild(workflowRow);
-    
+    if (templateRow) {
+        details.appendChild(templateRow);
+    }
+
     card.appendChild(badge);
     card.appendChild(name);
     card.appendChild(details);
-    
+
     return card;
 }
 
@@ -158,11 +199,16 @@ function renderDashboard(data) {
     const healthy = data.ingests.filter(function(i) { return i.status === 'healthy'; }).length;
     const stale = data.ingests.filter(function(i) { return i.status === 'stale'; }).length;
     const failed = data.ingests.filter(function(i) { return i.status === 'failed'; }).length;
-    
+
+    var templateBehind = data.ingests.filter(function(i) {
+        return i.template_status && i.template_status.commits_behind > 0;
+    }).length;
+
     const summaryEl = document.getElementById('summary');
     summaryEl.innerHTML = '<span class="healthy">' + healthy + ' healthy</span>' +
                           '<span class="stale">' + stale + ' stale</span>' +
-                          '<span class="failed">' + failed + ' failed</span>';
+                          '<span class="failed">' + failed + ' failed</span>' +
+                          '<span class="template-behind">' + templateBehind + ' template behind</span>';
     
     // Render ingest cards
     const dashboardEl = document.getElementById('dashboard');
