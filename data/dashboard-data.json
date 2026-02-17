@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T01:18:09.880543+00:00",
+  "last_updated": "2026-02-17T06:47:51.951499+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1230134",
@@ -93,7 +93,7 @@
     {
       "name": "clinvar-ingest",
       "repo_url": "https://github.com/monarch-initiative/clinvar-ingest",
-      "status": "failed",
+      "status": "healthy",
       "last_release": {
         "tag": "2026-01-03",
         "date": "2026-01-03T02:01:13+00:00",
@@ -101,9 +101,9 @@
       },
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "failure",
-        "date": "2026-02-13T21:23:30+00:00",
-        "url": "https://github.com/monarch-initiative/clinvar-ingest/actions/runs/22003312949"
+        "conclusion": "success",
+        "date": "2026-02-17T01:26:36+00:00",
+        "url": "https://github.com/monarch-initiative/clinvar-ingest/actions/runs/22082740004"
       },
       "koza_version": "2",
       "template_status": {
