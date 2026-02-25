@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T18:50:39.969512+00:00",
+  "last_updated": "2026-02-25T01:21:49.152497+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1230134",
@@ -303,7 +303,7 @@
     {
       "name": "phenopacket-ingest",
       "repo_url": "https://github.com/monarch-initiative/phenopacket-ingest",
-      "status": "healthy",
+      "status": "stale",
       "last_release": {
         "tag": "2026-01-10",
         "date": "2026-01-10T00:28:25+00:00",
