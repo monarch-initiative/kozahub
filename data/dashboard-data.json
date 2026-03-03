@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T18:35:10.788751+00:00",
+  "last_updated": "2026-03-03T01:19:19.482479+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1230134",
@@ -158,15 +158,15 @@
       "repo_url": "https://github.com/monarch-initiative/dismech",
       "status": "healthy",
       "last_release": {
-        "tag": "v0.1.11",
-        "date": "2026-02-16T23:16:10+00:00",
-        "url": "https://github.com/monarch-initiative/dismech/releases/tag/v0.1.11"
+        "tag": "v0.1.12",
+        "date": "2026-03-02T20:33:24+00:00",
+        "url": "https://github.com/monarch-initiative/dismech/releases/tag/v0.1.12"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-02-16T23:16:12+00:00",
-        "url": "https://github.com/monarch-initiative/dismech/actions/runs/22080307742"
+        "date": "2026-03-02T20:33:29+00:00",
+        "url": "https://github.com/monarch-initiative/dismech/actions/runs/22594533996"
       },
       "koza_version": "2",
       "template_status": {
@@ -200,15 +200,15 @@
       "repo_url": "https://github.com/monarch-initiative/maxo-annotation-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-02-05",
-        "date": "2026-02-05T21:16:39+00:00",
-        "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/releases/tag/2026-02-05"
+        "tag": "2026-03-03",
+        "date": "2026-03-03T01:05:15+00:00",
+        "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/releases/tag/2026-03-03"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-02-05T21:16:15+00:00",
-        "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/actions/runs/21728786633"
+        "date": "2026-03-03T01:04:48+00:00",
+        "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/actions/runs/22603345176"
       },
       "koza_version": "2",
       "template_status": {
@@ -240,17 +240,17 @@
     {
       "name": "monarch-phenotype-profile-ingest",
       "repo_url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest",
-      "status": "healthy",
+      "status": "failed",
       "last_release": {
         "tag": "2026-02-06",
         "date": "2026-02-06T20:52:42+00:00",
         "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/releases/tag/2026-02-06"
       },
       "last_workflow_run": {
-        "status": "completed",
-        "conclusion": "success",
-        "date": "2026-02-06T20:51:18+00:00",
-        "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/actions/runs/21765489169"
+        "status": "in_progress",
+        "conclusion": null,
+        "date": "2026-03-03T01:18:34+00:00",
+        "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/actions/runs/22603709758"
       },
       "koza_version": "2",
       "template_status": {
