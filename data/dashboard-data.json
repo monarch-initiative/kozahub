@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T18:37:04.148392+00:00",
+  "last_updated": "2026-03-04T01:14:59.675271+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1230134",
@@ -347,20 +347,20 @@
       "repo_url": "https://github.com/monarch-initiative/reactome-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "v0.1.0",
-        "date": "2026-01-28T02:37:30+00:00",
-        "url": "https://github.com/monarch-initiative/reactome-ingest/releases/tag/v0.1.0"
+        "tag": "2026-03-04",
+        "date": "2026-03-04T00:26:59+00:00",
+        "url": "https://github.com/monarch-initiative/reactome-ingest/releases/tag/2026-03-04"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-01-28T02:37:32+00:00",
-        "url": "https://github.com/monarch-initiative/reactome-ingest/actions/runs/21422701179"
+        "date": "2026-03-04T00:26:06+00:00",
+        "url": "https://github.com/monarch-initiative/reactome-ingest/actions/runs/22649197877"
       },
       "koza_version": "2",
       "template_status": {
-        "commit": "adada77",
-        "commits_behind": 4
+        "commit": "1230134",
+        "commits_behind": 0
       }
     },
     {
