@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T01:21:37.750160+00:00",
+  "last_updated": "2026-03-19T06:47:11.710458+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1230134",
@@ -324,7 +324,7 @@
     {
       "name": "pombase-ingest",
       "repo_url": "https://github.com/monarch-initiative/pombase-ingest",
-      "status": "healthy",
+      "status": "stale",
       "last_release": {
         "tag": "2026-02-01",
         "date": "2026-02-01T01:26:24+00:00",
@@ -402,7 +402,7 @@
     {
       "name": "xenbase-ingest",
       "repo_url": "https://github.com/monarch-initiative/xenbase-ingest",
-      "status": "healthy",
+      "status": "stale",
       "last_release": {
         "tag": "v2026-02-01",
         "date": "2026-02-01T01:49:08+00:00",
