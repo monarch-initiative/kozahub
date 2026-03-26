@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-25T18:44:55.710511+00:00",
+  "last_updated": "2026-03-26T01:25:27.850482+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1230134",
@@ -263,15 +263,15 @@
       "repo_url": "https://github.com/monarch-initiative/omim-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-03-01",
-        "date": "2026-03-01T02:47:27+00:00",
-        "url": "https://github.com/monarch-initiative/omim-ingest/releases/tag/2026-03-01"
+        "tag": "2026-03-25",
+        "date": "2026-03-25T21:18:01+00:00",
+        "url": "https://github.com/monarch-initiative/omim-ingest/releases/tag/2026-03-25"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-03-01T02:46:58+00:00",
-        "url": "https://github.com/monarch-initiative/omim-ingest/actions/runs/22534414194"
+        "date": "2026-03-25T21:17:31+00:00",
+        "url": "https://github.com/monarch-initiative/omim-ingest/actions/runs/23564610116"
       },
       "koza_version": "2",
       "template_status": {
