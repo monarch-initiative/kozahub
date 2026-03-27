@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-03-27T12:43:07.806435+00:00",
+  "last_updated": "2026-03-27T17:41:39.929405+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
-    "latest_commit": "ebaf005",
-    "total_commits": 87
+    "latest_commit": "66008bd",
+    "total_commits": 88
   },
   "ingests": [
     {
@@ -24,7 +24,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "adada77",
-        "commits_behind": 7
+        "commits_behind": 8
       }
     },
     {
@@ -45,7 +45,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "adada77",
-        "commits_behind": 7
+        "commits_behind": 8
       }
     },
     {
@@ -66,7 +66,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "adada77",
-        "commits_behind": 7
+        "commits_behind": 8
       }
     },
     {
@@ -87,7 +87,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "adada77",
-        "commits_behind": 7
+        "commits_behind": 8
       }
     },
     {
@@ -108,7 +108,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "1230134",
-        "commits_behind": 3
+        "commits_behind": 4
       }
     },
     {
@@ -129,7 +129,24 @@
       "koza_version": "2",
       "template_status": {
         "commit": "adada77",
-        "commits_behind": 7
+        "commits_behind": 8
+      }
+    },
+    {
+      "name": "cureid-ingest",
+      "repo_url": "https://github.com/monarch-initiative/cureid-ingest",
+      "status": "failed",
+      "last_release": null,
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "failure",
+        "date": "2026-03-27T17:39:04+00:00",
+        "url": "https://github.com/monarch-initiative/cureid-ingest/actions/runs/23659545514"
+      },
+      "koza_version": "2",
+      "template_status": {
+        "commit": "4611bce",
+        "commits_behind": null
       }
     },
     {
@@ -150,7 +167,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "d6f5ff0",
-        "commits_behind": 5
+        "commits_behind": 6
       }
     },
     {
@@ -192,7 +209,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "adada77",
-        "commits_behind": 7
+        "commits_behind": 8
       }
     },
     {
@@ -213,7 +230,28 @@
       "koza_version": "2",
       "template_status": {
         "commit": "adada77",
-        "commits_behind": 7
+        "commits_behind": 8
+      }
+    },
+    {
+      "name": "medic-ingest",
+      "repo_url": "https://github.com/monarch-initiative/medic-ingest",
+      "status": "healthy",
+      "last_release": {
+        "tag": "2026-03-27",
+        "date": "2026-03-27T17:33:50+00:00",
+        "url": "https://github.com/monarch-initiative/medic-ingest/releases/tag/2026-03-27"
+      },
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "date": "2026-03-27T17:32:56+00:00",
+        "url": "https://github.com/monarch-initiative/medic-ingest/actions/runs/23659299024"
+      },
+      "koza_version": null,
+      "template_status": {
+        "commit": "1230134",
+        "commits_behind": 4
       }
     },
     {
@@ -255,7 +293,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "d6f5ff0",
-        "commits_behind": 5
+        "commits_behind": 6
       }
     },
     {
@@ -276,7 +314,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "adada77",
-        "commits_behind": 7
+        "commits_behind": 8
       }
     },
     {
@@ -297,7 +335,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "1230134",
-        "commits_behind": 3
+        "commits_behind": 4
       }
     },
     {
@@ -318,7 +356,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "fe21eee73f47a659640e02590a3d72ca82f2ca35",
-        "commits_behind": 10
+        "commits_behind": 11
       }
     },
     {
@@ -339,7 +377,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "adada77",
-        "commits_behind": 7
+        "commits_behind": 8
       }
     },
     {
@@ -360,7 +398,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "1230134",
-        "commits_behind": 3
+        "commits_behind": 4
       }
     },
     {
@@ -417,7 +455,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "adada77",
-        "commits_behind": 7
+        "commits_behind": 8
       }
     },
     {
@@ -438,7 +476,7 @@
       "koza_version": "2",
       "template_status": {
         "commit": "8ecad33",
-        "commits_behind": 12
+        "commits_behind": 13
       }
     }
   ]
