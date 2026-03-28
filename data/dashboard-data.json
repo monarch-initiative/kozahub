@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T18:45:08.921850+00:00",
+  "last_updated": "2026-03-28T01:19:44.121595+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "218fa7f",
@@ -138,14 +138,14 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-03-27",
-        "date": "2026-03-27T17:53:38+00:00",
+        "date": "2026-03-27T20:28:19+00:00",
         "url": "https://github.com/monarch-initiative/cureid-ingest/releases/tag/2026-03-27"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-03-27T17:53:06+00:00",
-        "url": "https://github.com/monarch-initiative/cureid-ingest/actions/runs/23660109052"
+        "date": "2026-03-27T20:27:50+00:00",
+        "url": "https://github.com/monarch-initiative/cureid-ingest/actions/runs/23666093948"
       },
       "koza_version": "2",
       "template_status": {
@@ -179,15 +179,15 @@
       "repo_url": "https://github.com/monarch-initiative/dismech",
       "status": "healthy",
       "last_release": {
-        "tag": "v0.1.15",
-        "date": "2026-03-19T00:21:35+00:00",
-        "url": "https://github.com/monarch-initiative/dismech/releases/tag/v0.1.15"
+        "tag": "v0.1.16",
+        "date": "2026-03-27T23:32:09+00:00",
+        "url": "https://github.com/monarch-initiative/dismech/releases/tag/v0.1.16"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-03-19T00:21:37+00:00",
-        "url": "https://github.com/monarch-initiative/dismech/actions/runs/23273647477"
+        "date": "2026-03-27T23:32:11+00:00",
+        "url": "https://github.com/monarch-initiative/dismech/actions/runs/23671903885"
       },
       "koza_version": "2",
       "template_status": {
@@ -243,14 +243,14 @@
       "status": "healthy",
       "last_release": {
         "tag": "2026-03-27",
-        "date": "2026-03-27T17:33:50+00:00",
+        "date": "2026-03-27T19:32:52+00:00",
         "url": "https://github.com/monarch-initiative/medic-ingest/releases/tag/2026-03-27"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-03-27T17:32:56+00:00",
-        "url": "https://github.com/monarch-initiative/medic-ingest/actions/runs/23659299024"
+        "date": "2026-03-27T19:31:48+00:00",
+        "url": "https://github.com/monarch-initiative/medic-ingest/actions/runs/23663959136"
       },
       "koza_version": null,
       "template_status": {
