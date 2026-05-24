@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24T02:27:59.229934+00:00",
+  "last_updated": "2026-05-24T08:18:41.490088+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -429,17 +429,17 @@
     {
       "name": "upheno-cross-species-ingest",
       "repo_url": "https://github.com/monarch-initiative/upheno-cross-species-ingest",
-      "status": "healthy",
+      "status": "failed",
       "last_release": {
-        "tag": "2026-05-17",
-        "date": "2026-05-17T04:11:28+00:00",
-        "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/releases/tag/2026-05-17"
+        "tag": "2026-05-24",
+        "date": "2026-05-24T04:21:35+00:00",
+        "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/releases/tag/2026-05-24"
       },
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "success",
-        "date": "2026-05-17T04:10:51+00:00",
-        "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/actions/runs/25981007986"
+        "conclusion": "failure",
+        "date": "2026-05-24T04:20:55+00:00",
+        "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/actions/runs/26351739597"
       },
       "koza_version": "2",
       "template_status": {
