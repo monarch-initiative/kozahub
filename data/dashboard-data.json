@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02T20:36:25.164553+00:00",
+  "last_updated": "2026-06-03T02:52:34.275555+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -221,15 +221,15 @@
       "repo_url": "https://github.com/monarch-initiative/maxo-annotation-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-05-13",
-        "date": "2026-05-13T23:00:33+00:00",
-        "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/releases/tag/2026-05-13"
+        "tag": "2026-06-03",
+        "date": "2026-06-03T02:35:14+00:00",
+        "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/releases/tag/2026-06-03"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-05-13T23:00:02+00:00",
-        "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/actions/runs/25831323399"
+        "date": "2026-06-03T02:34:48+00:00",
+        "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/actions/runs/26860237776"
       },
       "koza_version": "2",
       "template_status": {
@@ -282,17 +282,17 @@
     {
       "name": "monarch-phenotype-profile-ingest",
       "repo_url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest",
-      "status": "healthy",
+      "status": "failed",
       "last_release": {
         "tag": "2026-05-13",
         "date": "2026-05-13T23:01:44+00:00",
         "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/releases/tag/2026-05-13"
       },
       "last_workflow_run": {
-        "status": "completed",
-        "conclusion": "success",
-        "date": "2026-05-13T23:00:07+00:00",
-        "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/actions/runs/25831327147"
+        "status": "in_progress",
+        "conclusion": null,
+        "date": "2026-06-03T02:51:53+00:00",
+        "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/actions/runs/26860770090"
       },
       "koza_version": "2",
       "template_status": {
