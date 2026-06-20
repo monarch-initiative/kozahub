@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T19:27:14.859677+00:00",
+  "last_updated": "2026-06-20T02:33:21.743524+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -179,15 +179,15 @@
       "repo_url": "https://github.com/monarch-initiative/dismech",
       "status": "healthy",
       "last_release": {
-        "tag": "v0.1.31",
-        "date": "2026-06-15T15:59:32+00:00",
-        "url": "https://github.com/monarch-initiative/dismech/releases/tag/v0.1.31"
+        "tag": "v0.1.32",
+        "date": "2026-06-20T00:18:16+00:00",
+        "url": "https://github.com/monarch-initiative/dismech/releases/tag/v0.1.32"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-15T15:59:40+00:00",
-        "url": "https://github.com/monarch-initiative/dismech/actions/runs/27559051669"
+        "date": "2026-06-20T00:18:18+00:00",
+        "url": "https://github.com/monarch-initiative/dismech/actions/runs/27854398266"
       },
       "koza_version": "2",
       "template_status": {
@@ -259,15 +259,15 @@
       "repo_url": "https://github.com/monarch-initiative/medic-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-06-01",
-        "date": "2026-06-01T02:35:44+00:00",
-        "url": "https://github.com/monarch-initiative/medic-ingest/releases/tag/2026-06-01"
+        "tag": "2026-06-19",
+        "date": "2026-06-19T23:36:09+00:00",
+        "url": "https://github.com/monarch-initiative/medic-ingest/releases/tag/2026-06-19"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T02:34:46+00:00",
-        "url": "https://github.com/monarch-initiative/medic-ingest/actions/runs/26732157159"
+        "date": "2026-06-19T23:34:37+00:00",
+        "url": "https://github.com/monarch-initiative/medic-ingest/actions/runs/27853175881"
       },
       "koza_version": "2",
       "template_status": {
