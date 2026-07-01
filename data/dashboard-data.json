@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T02:38:31.925912+00:00",
+  "last_updated": "2026-07-01T09:30:55.116481+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -11,15 +11,15 @@
       "repo_url": "https://github.com/monarch-initiative/alliance-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "v2026-06-01",
-        "date": "2026-06-01T04:20:06+00:00",
-        "url": "https://github.com/monarch-initiative/alliance-ingest/releases/tag/v2026-06-01"
+        "tag": "v2026-07-01",
+        "date": "2026-07-01T04:08:11+00:00",
+        "url": "https://github.com/monarch-initiative/alliance-ingest/releases/tag/v2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T04:15:16+00:00",
-        "url": "https://github.com/monarch-initiative/alliance-ingest/actions/runs/26734815312"
+        "date": "2026-07-01T04:03:03+00:00",
+        "url": "https://github.com/monarch-initiative/alliance-ingest/actions/runs/28492633908"
       },
       "koza_version": "2",
       "template_status": {
@@ -53,15 +53,15 @@
       "repo_url": "https://github.com/monarch-initiative/biogrid-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "v2026-06-01",
-        "date": "2026-06-01T04:30:01+00:00",
-        "url": "https://github.com/monarch-initiative/biogrid-ingest/releases/tag/v2026-06-01"
+        "tag": "v2026-07-01",
+        "date": "2026-07-01T04:17:02+00:00",
+        "url": "https://github.com/monarch-initiative/biogrid-ingest/releases/tag/v2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T04:26:58+00:00",
-        "url": "https://github.com/monarch-initiative/biogrid-ingest/actions/runs/26735133316"
+        "date": "2026-07-01T04:14:30+00:00",
+        "url": "https://github.com/monarch-initiative/biogrid-ingest/actions/runs/28493040969"
       },
       "koza_version": "2",
       "template_status": {
@@ -74,15 +74,15 @@
       "repo_url": "https://github.com/monarch-initiative/clingen-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "v2026-06-01",
-        "date": "2026-06-01T03:46:35+00:00",
-        "url": "https://github.com/monarch-initiative/clingen-ingest/releases/tag/v2026-06-01"
+        "tag": "v2026-07-01",
+        "date": "2026-07-01T03:35:38+00:00",
+        "url": "https://github.com/monarch-initiative/clingen-ingest/releases/tag/v2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T03:42:17+00:00",
-        "url": "https://github.com/monarch-initiative/clingen-ingest/actions/runs/26733914173"
+        "date": "2026-07-01T03:30:50+00:00",
+        "url": "https://github.com/monarch-initiative/clingen-ingest/actions/runs/28491523956"
       },
       "koza_version": "2",
       "template_status": {
@@ -137,15 +137,15 @@
       "repo_url": "https://github.com/monarch-initiative/cureid-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-06-01",
-        "date": "2026-06-01T03:32:59+00:00",
-        "url": "https://github.com/monarch-initiative/cureid-ingest/releases/tag/2026-06-01"
+        "tag": "2026-07-01",
+        "date": "2026-07-01T02:57:29+00:00",
+        "url": "https://github.com/monarch-initiative/cureid-ingest/releases/tag/2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T03:32:28+00:00",
-        "url": "https://github.com/monarch-initiative/cureid-ingest/actions/runs/26733657148"
+        "date": "2026-07-01T02:56:06+00:00",
+        "url": "https://github.com/monarch-initiative/cureid-ingest/actions/runs/28490300393"
       },
       "koza_version": "2",
       "template_status": {
@@ -158,15 +158,15 @@
       "repo_url": "https://github.com/monarch-initiative/dictybase-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-06-01",
-        "date": "2026-06-01T03:52:55+00:00",
-        "url": "https://github.com/monarch-initiative/dictybase-ingest/releases/tag/2026-06-01"
+        "tag": "2026-07-01",
+        "date": "2026-07-01T03:37:57+00:00",
+        "url": "https://github.com/monarch-initiative/dictybase-ingest/releases/tag/2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T03:52:20+00:00",
-        "url": "https://github.com/monarch-initiative/dictybase-ingest/actions/runs/26734181703"
+        "date": "2026-07-01T03:37:22+00:00",
+        "url": "https://github.com/monarch-initiative/dictybase-ingest/actions/runs/28491752012"
       },
       "koza_version": "2",
       "template_status": {
@@ -200,15 +200,15 @@
       "repo_url": "https://github.com/monarch-initiative/go-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-06-01",
-        "date": "2026-06-01T05:01:13+00:00",
-        "url": "https://github.com/monarch-initiative/go-ingest/releases/tag/2026-06-01"
+        "tag": "2026-07-01",
+        "date": "2026-07-01T04:41:58+00:00",
+        "url": "https://github.com/monarch-initiative/go-ingest/releases/tag/2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T04:57:37+00:00",
-        "url": "https://github.com/monarch-initiative/go-ingest/actions/runs/26736017398"
+        "date": "2026-07-01T04:38:58+00:00",
+        "url": "https://github.com/monarch-initiative/go-ingest/actions/runs/28493915192"
       },
       "koza_version": "2",
       "template_status": {
@@ -221,15 +221,15 @@
       "repo_url": "https://github.com/monarch-initiative/loinc-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-06-27",
-        "date": "2026-06-27T20:50:47+00:00",
-        "url": "https://github.com/monarch-initiative/loinc-ingest/releases/tag/2026-06-27"
+        "tag": "2026-07-01",
+        "date": "2026-07-01T02:50:43+00:00",
+        "url": "https://github.com/monarch-initiative/loinc-ingest/releases/tag/2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-27T20:49:33+00:00",
-        "url": "https://github.com/monarch-initiative/loinc-ingest/actions/runs/28301399812"
+        "date": "2026-07-01T02:49:30+00:00",
+        "url": "https://github.com/monarch-initiative/loinc-ingest/actions/runs/28490071297"
       },
       "koza_version": "2",
       "template_status": {
@@ -261,15 +261,15 @@
     {
       "name": "medic-ingest",
       "repo_url": "https://github.com/monarch-initiative/medic-ingest",
-      "status": "failed",
+      "status": "healthy",
       "last_release": {
-        "tag": "2026-06-19",
-        "date": "2026-06-19T23:36:09+00:00",
-        "url": "https://github.com/monarch-initiative/medic-ingest/releases/tag/2026-06-19"
+        "tag": "2026-07-01",
+        "date": "2026-07-01T03:11:36+00:00",
+        "url": "https://github.com/monarch-initiative/medic-ingest/releases/tag/2026-07-01"
       },
       "last_workflow_run": {
-        "status": "in_progress",
-        "conclusion": null,
+        "status": "completed",
+        "conclusion": "success",
         "date": "2026-07-01T02:14:17+00:00",
         "url": "https://github.com/monarch-initiative/medic-ingest/actions/runs/28488849983"
       },
@@ -284,15 +284,15 @@
       "repo_url": "https://github.com/monarch-initiative/mmrrc-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-06-01",
-        "date": "2026-06-01T04:07:41+00:00",
-        "url": "https://github.com/monarch-initiative/mmrrc-ingest/releases/tag/2026-06-01"
+        "tag": "2026-07-01",
+        "date": "2026-07-01T03:56:26+00:00",
+        "url": "https://github.com/monarch-initiative/mmrrc-ingest/releases/tag/2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T04:06:52+00:00",
-        "url": "https://github.com/monarch-initiative/mmrrc-ingest/actions/runs/26734589114"
+        "date": "2026-07-01T03:55:36+00:00",
+        "url": "https://github.com/monarch-initiative/mmrrc-ingest/actions/runs/28492377313"
       },
       "koza_version": "2",
       "template_status": {
@@ -326,15 +326,15 @@
       "repo_url": "https://github.com/monarch-initiative/omim-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-06-01",
-        "date": "2026-06-01T04:46:19+00:00",
-        "url": "https://github.com/monarch-initiative/omim-ingest/releases/tag/2026-06-01"
+        "tag": "2026-07-01",
+        "date": "2026-07-01T04:19:16+00:00",
+        "url": "https://github.com/monarch-initiative/omim-ingest/releases/tag/2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T04:45:50+00:00",
-        "url": "https://github.com/monarch-initiative/omim-ingest/actions/runs/26735677156"
+        "date": "2026-07-01T04:18:41+00:00",
+        "url": "https://github.com/monarch-initiative/omim-ingest/actions/runs/28493196471"
       },
       "koza_version": "2",
       "template_status": {
@@ -410,15 +410,15 @@
       "repo_url": "https://github.com/monarch-initiative/reactome-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-06-01",
-        "date": "2026-06-01T05:02:53+00:00",
-        "url": "https://github.com/monarch-initiative/reactome-ingest/releases/tag/2026-06-01"
+        "tag": "2026-07-01",
+        "date": "2026-07-01T04:43:38+00:00",
+        "url": "https://github.com/monarch-initiative/reactome-ingest/releases/tag/2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T05:01:56+00:00",
-        "url": "https://github.com/monarch-initiative/reactome-ingest/actions/runs/26736149874"
+        "date": "2026-07-01T04:42:37+00:00",
+        "url": "https://github.com/monarch-initiative/reactome-ingest/actions/runs/28494046321"
       },
       "koza_version": "2",
       "template_status": {
@@ -452,15 +452,15 @@
       "repo_url": "https://github.com/monarch-initiative/upheno-cross-species-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-06-01",
-        "date": "2026-06-01T04:15:43+00:00",
-        "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/releases/tag/2026-06-01"
+        "tag": "2026-07-01",
+        "date": "2026-07-01T04:03:38+00:00",
+        "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/releases/tag/2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T04:15:05+00:00",
-        "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/actions/runs/26734809010"
+        "date": "2026-07-01T04:02:50+00:00",
+        "url": "https://github.com/monarch-initiative/upheno-cross-species-ingest/actions/runs/28492626138"
       },
       "koza_version": "2",
       "template_status": {
@@ -473,15 +473,15 @@
       "repo_url": "https://github.com/monarch-initiative/xenbase-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-06-01",
-        "date": "2026-06-01T05:05:47+00:00",
-        "url": "https://github.com/monarch-initiative/xenbase-ingest/releases/tag/2026-06-01"
+        "tag": "2026-07-01",
+        "date": "2026-07-01T04:45:55+00:00",
+        "url": "https://github.com/monarch-initiative/xenbase-ingest/releases/tag/2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T05:04:59+00:00",
-        "url": "https://github.com/monarch-initiative/xenbase-ingest/actions/runs/26736240739"
+        "date": "2026-07-01T04:45:08+00:00",
+        "url": "https://github.com/monarch-initiative/xenbase-ingest/actions/runs/28494136223"
       },
       "koza_version": "2",
       "template_status": {
@@ -494,15 +494,15 @@
       "repo_url": "https://github.com/monarch-initiative/zfin-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "v2026-06-01",
-        "date": "2026-06-01T02:48:09+00:00",
-        "url": "https://github.com/monarch-initiative/zfin-ingest/releases/tag/v2026-06-01"
+        "tag": "v2026-07-01",
+        "date": "2026-07-01T02:39:45+00:00",
+        "url": "https://github.com/monarch-initiative/zfin-ingest/releases/tag/v2026-07-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-06-01T02:47:02+00:00",
-        "url": "https://github.com/monarch-initiative/zfin-ingest/actions/runs/26732460469"
+        "date": "2026-07-01T02:38:42+00:00",
+        "url": "https://github.com/monarch-initiative/zfin-ingest/actions/runs/28489698706"
       },
       "koza_version": "2",
       "template_status": {
