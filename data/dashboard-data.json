@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T13:31:29.701164+00:00",
+  "last_updated": "2026-07-02T19:11:18.937546+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -21,7 +21,7 @@
         "date": "2026-07-01T04:03:03+00:00",
         "url": "https://github.com/monarch-initiative/alliance-ingest/actions/runs/28492633908"
       },
-      "koza_version": "2",
+      "koza_version": null,
       "template_status": {
         "commit": "1e35b56",
         "commits_behind": 0
