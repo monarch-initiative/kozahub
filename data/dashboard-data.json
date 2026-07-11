@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T19:17:36.910133+00:00",
+  "last_updated": "2026-07-11T01:48:53.570614+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -200,15 +200,15 @@
       "repo_url": "https://github.com/monarch-initiative/go-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-07-08",
-        "date": "2026-07-08T05:08:52+00:00",
-        "url": "https://github.com/monarch-initiative/go-ingest/releases/tag/2026-07-08"
+        "tag": "2026-07-11",
+        "date": "2026-07-11T01:04:38+00:00",
+        "url": "https://github.com/monarch-initiative/go-ingest/releases/tag/2026-07-11"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-07-08T05:05:10+00:00",
-        "url": "https://github.com/monarch-initiative/go-ingest/actions/runs/28918901576"
+        "date": "2026-07-11T00:59:39+00:00",
+        "url": "https://github.com/monarch-initiative/go-ingest/actions/runs/29133774066"
       },
       "koza_version": "2",
       "template_status": {
@@ -284,15 +284,15 @@
       "repo_url": "https://github.com/monarch-initiative/mmrrc-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-07-01",
-        "date": "2026-07-01T03:56:26+00:00",
-        "url": "https://github.com/monarch-initiative/mmrrc-ingest/releases/tag/2026-07-01"
+        "tag": "2026-07-11",
+        "date": "2026-07-11T00:14:22+00:00",
+        "url": "https://github.com/monarch-initiative/mmrrc-ingest/releases/tag/2026-07-11"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-07-01T03:55:36+00:00",
-        "url": "https://github.com/monarch-initiative/mmrrc-ingest/actions/runs/28492377313"
+        "date": "2026-07-11T00:12:55+00:00",
+        "url": "https://github.com/monarch-initiative/mmrrc-ingest/actions/runs/29132127716"
       },
       "koza_version": "2",
       "template_status": {
