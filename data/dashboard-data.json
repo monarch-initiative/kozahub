@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T13:42:45.940714+00:00",
+  "last_updated": "2026-07-31T17:12:52.317013+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -209,6 +209,27 @@
         "conclusion": "success",
         "date": "2026-07-11T00:59:39+00:00",
         "url": "https://github.com/monarch-initiative/go-ingest/actions/runs/29133774066"
+      },
+      "koza_version": "2",
+      "template_status": {
+        "commit": "1e35b56",
+        "commits_behind": 0
+      }
+    },
+    {
+      "name": "hgnc-ingest",
+      "repo_url": "https://github.com/monarch-initiative/hgnc-ingest",
+      "status": "healthy",
+      "last_release": {
+        "tag": "2026-07-01",
+        "date": "2026-07-01T02:11:43+00:00",
+        "url": "https://github.com/monarch-initiative/hgnc-ingest/releases/tag/2026-07-01"
+      },
+      "last_workflow_run": {
+        "status": "completed",
+        "conclusion": "success",
+        "date": "2026-07-01T02:10:53+00:00",
+        "url": "https://github.com/monarch-initiative/hgnc-ingest/actions/runs/28488730927"
       },
       "koza_version": "2",
       "template_status": {
