@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T01:56:06.330136+00:00",
+  "last_updated": "2026-08-03T09:25:30.317149+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -326,15 +326,15 @@
       "repo_url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-07-03",
-        "date": "2026-07-03T02:04:33+00:00",
-        "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/releases/tag/2026-07-03"
+        "tag": "2026-08-03",
+        "date": "2026-08-03T01:57:22+00:00",
+        "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/releases/tag/2026-08-03"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-07-03T02:02:54+00:00",
-        "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/actions/runs/28633576257"
+        "date": "2026-08-03T01:55:50+00:00",
+        "url": "https://github.com/monarch-initiative/monarch-phenotype-profile-ingest/actions/runs/30778039541"
       },
       "koza_version": "2",
       "template_status": {
