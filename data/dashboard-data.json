@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19T00:41:57.761365+00:00",
+  "last_updated": "2026-08-19T06:27:42.243218+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -51,15 +51,15 @@
     {
       "name": "biogrid-ingest",
       "repo_url": "https://github.com/monarch-initiative/biogrid-ingest",
-      "status": "failed",
+      "status": "healthy",
       "last_release": {
-        "tag": "v2026-07-01",
-        "date": "2026-07-01T04:17:02+00:00",
-        "url": "https://github.com/monarch-initiative/biogrid-ingest/releases/tag/v2026-07-01"
+        "tag": "v2026-08-19",
+        "date": "2026-08-19T02:45:16+00:00",
+        "url": "https://github.com/monarch-initiative/biogrid-ingest/releases/tag/v2026-08-19"
       },
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "failure",
+        "conclusion": "success",
         "date": "2026-08-01T03:18:40+00:00",
         "url": "https://github.com/monarch-initiative/biogrid-ingest/actions/runs/30681743908"
       },
@@ -177,7 +177,7 @@
     {
       "name": "dismech",
       "repo_url": "https://github.com/monarch-initiative/dismech",
-      "status": "failed",
+      "status": "healthy",
       "last_release": {
         "tag": "v0.1.37",
         "date": "2026-08-17T17:14:13+00:00",
@@ -185,7 +185,7 @@
       },
       "last_workflow_run": {
         "status": "completed",
-        "conclusion": "failure",
+        "conclusion": "success",
         "date": "2026-08-17T17:14:16+00:00",
         "url": "https://github.com/monarch-initiative/dismech/actions/runs/32049427408"
       },
