@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T18:24:44.063042+00:00",
+  "last_updated": "2026-08-21T00:44:54.328623+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -242,15 +242,15 @@
       "repo_url": "https://github.com/monarch-initiative/loinc-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-08-01",
-        "date": "2026-08-01T02:12:07+00:00",
-        "url": "https://github.com/monarch-initiative/loinc-ingest/releases/tag/2026-08-01"
+        "tag": "2026-08-20",
+        "date": "2026-08-20T19:18:54+00:00",
+        "url": "https://github.com/monarch-initiative/loinc-ingest/releases/tag/2026-08-20"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-08-01T02:09:08+00:00",
-        "url": "https://github.com/monarch-initiative/loinc-ingest/actions/runs/30679424967"
+        "date": "2026-08-20T19:17:50+00:00",
+        "url": "https://github.com/monarch-initiative/loinc-ingest/actions/runs/32407897711"
       },
       "koza_version": "2",
       "template_status": {
