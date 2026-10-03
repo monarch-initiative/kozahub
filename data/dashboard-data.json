@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T21:37:11.906904+00:00",
+  "last_updated": "2026-10-03T02:59:17.748319+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -270,8 +270,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "failure",
-        "date": "2026-09-03T01:48:01+00:00",
-        "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/actions/runs/33705104820"
+        "date": "2026-10-03T02:38:08+00:00",
+        "url": "https://github.com/monarch-initiative/maxo-annotation-ingest/actions/runs/37090483497"
       },
       "koza_version": "2",
       "template_status": {
