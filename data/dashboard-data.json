@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T10:44:34.361990+00:00",
+  "last_updated": "2026-10-23T16:29:48.360392+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -179,15 +179,15 @@
       "repo_url": "https://github.com/monarch-initiative/dismech",
       "status": "healthy",
       "last_release": {
-        "tag": "v0.1.44",
-        "date": "2026-10-15T19:17:50+00:00",
-        "url": "https://github.com/monarch-initiative/dismech/releases/tag/v0.1.44"
+        "tag": "v0.1.45",
+        "date": "2026-10-23T14:55:18+00:00",
+        "url": "https://github.com/monarch-initiative/dismech/releases/tag/v0.1.45"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-10-15T19:17:52+00:00",
-        "url": "https://github.com/monarch-initiative/dismech/actions/runs/38792735144"
+        "date": "2026-10-23T14:55:21+00:00",
+        "url": "https://github.com/monarch-initiative/dismech/actions/runs/39973770926"
       },
       "koza_version": "2",
       "template_status": {
