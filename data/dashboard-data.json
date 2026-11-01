@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T20:48:50.796342+00:00",
+  "last_updated": "2026-11-01T03:21:16.343689+00:00",
   "template": {
     "repo_url": "https://github.com/monarch-initiative/koza-ingest-template",
     "latest_commit": "1e35b56",
@@ -95,15 +95,15 @@
       "repo_url": "https://github.com/monarch-initiative/clinvar-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-10-01",
-        "date": "2026-10-01T02:52:34+00:00",
-        "url": "https://github.com/monarch-initiative/clinvar-ingest/releases/tag/2026-10-01"
+        "tag": "2026-11-01",
+        "date": "2026-11-01T02:58:10+00:00",
+        "url": "https://github.com/monarch-initiative/clinvar-ingest/releases/tag/2026-11-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-10-01T02:45:14+00:00",
-        "url": "https://github.com/monarch-initiative/clinvar-ingest/actions/runs/36807306861"
+        "date": "2026-11-01T02:51:48+00:00",
+        "url": "https://github.com/monarch-initiative/clinvar-ingest/actions/runs/41266881434"
       },
       "koza_version": "2",
       "template_status": {
@@ -116,15 +116,15 @@
       "repo_url": "https://github.com/monarch-initiative/ctd-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-10-01",
-        "date": "2026-10-01T02:49:02+00:00",
-        "url": "https://github.com/monarch-initiative/ctd-ingest/releases/tag/2026-10-01"
+        "tag": "2026-11-01",
+        "date": "2026-11-01T02:55:25+00:00",
+        "url": "https://github.com/monarch-initiative/ctd-ingest/releases/tag/2026-11-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-10-01T02:47:36+00:00",
-        "url": "https://github.com/monarch-initiative/ctd-ingest/actions/runs/36807496492"
+        "date": "2026-11-01T02:53:42+00:00",
+        "url": "https://github.com/monarch-initiative/ctd-ingest/actions/runs/41266998488"
       },
       "koza_version": "2",
       "template_status": {
@@ -228,8 +228,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "failure",
-        "date": "2026-10-01T02:50:21+00:00",
-        "url": "https://github.com/monarch-initiative/hgnc-ingest/actions/runs/36807709175"
+        "date": "2026-11-01T02:55:44+00:00",
+        "url": "https://github.com/monarch-initiative/hgnc-ingest/actions/runs/41267130569"
       },
       "koza_version": "2",
       "template_status": {
@@ -284,15 +284,15 @@
       "repo_url": "https://github.com/monarch-initiative/medic-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-10-01",
-        "date": "2026-10-01T02:56:45+00:00",
-        "url": "https://github.com/monarch-initiative/medic-ingest/releases/tag/2026-10-01"
+        "tag": "2026-11-01",
+        "date": "2026-11-01T03:00:47+00:00",
+        "url": "https://github.com/monarch-initiative/medic-ingest/releases/tag/2026-11-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-10-01T02:55:47+00:00",
-        "url": "https://github.com/monarch-initiative/medic-ingest/actions/runs/36808126607"
+        "date": "2026-11-01T02:59:54+00:00",
+        "url": "https://github.com/monarch-initiative/medic-ingest/actions/runs/41267374550"
       },
       "koza_version": "2",
       "template_status": {
@@ -368,15 +368,15 @@
       "repo_url": "https://github.com/monarch-initiative/pantherdb-orthologs-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-10-01",
-        "date": "2026-10-01T02:57:05+00:00",
-        "url": "https://github.com/monarch-initiative/pantherdb-orthologs-ingest/releases/tag/2026-10-01"
+        "tag": "2026-11-01",
+        "date": "2026-11-01T03:01:26+00:00",
+        "url": "https://github.com/monarch-initiative/pantherdb-orthologs-ingest/releases/tag/2026-11-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-10-01T02:40:22+00:00",
-        "url": "https://github.com/monarch-initiative/pantherdb-orthologs-ingest/actions/runs/36806927752"
+        "date": "2026-11-01T02:47:49+00:00",
+        "url": "https://github.com/monarch-initiative/pantherdb-orthologs-ingest/actions/runs/41266632447"
       },
       "koza_version": "2",
       "template_status": {
@@ -410,15 +410,15 @@
       "repo_url": "https://github.com/monarch-initiative/pombase-ingest",
       "status": "healthy",
       "last_release": {
-        "tag": "2026-10-01",
-        "date": "2026-10-01T02:57:06+00:00",
-        "url": "https://github.com/monarch-initiative/pombase-ingest/releases/tag/2026-10-01"
+        "tag": "2026-11-01",
+        "date": "2026-11-01T03:01:32+00:00",
+        "url": "https://github.com/monarch-initiative/pombase-ingest/releases/tag/2026-11-01"
       },
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "success",
-        "date": "2026-10-01T02:56:11+00:00",
-        "url": "https://github.com/monarch-initiative/pombase-ingest/actions/runs/36808158623"
+        "date": "2026-11-01T03:00:41+00:00",
+        "url": "https://github.com/monarch-initiative/pombase-ingest/actions/runs/41267431668"
       },
       "koza_version": "2",
       "template_status": {
@@ -459,8 +459,8 @@
       "last_workflow_run": {
         "status": "completed",
         "conclusion": "failure",
-        "date": "2026-10-01T02:34:54+00:00",
-        "url": "https://github.com/monarch-initiative/string-ingest/actions/runs/36806506172"
+        "date": "2026-11-01T02:43:48+00:00",
+        "url": "https://github.com/monarch-initiative/string-ingest/actions/runs/41266370462"
       },
       "koza_version": "2",
       "template_status": {
